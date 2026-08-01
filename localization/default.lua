@@ -268,11 +268,52 @@ return {
 					"{B:1,C:white,s:0.75,E:1}Idea: Kirbo, InfamousInvictis"
 				},
 			},
+            j_flor_Snowbirds = {
+				name = "Snowbirds",
+				text = {
+					"This Joker gains {C:mult}+#1#{} Mult",
+					"and deducts {C:money}$#3#{} at end of round",
+                    "{C:inactive}(Currently {C:mult}+#2#{}{C:inactive} Mult)",
+					"{s:0.5} {}",
+					"{B:1,C:white,s:0.75,E:1}Code: Sophiedeergirl",
+					"{B:1,C:white,s:0.75,E:1}Art: InfamousInvictis",
+					"{B:1,C:white,s:0.75,E:1}Idea: Kirbo"
+				},
+			},
+            j_flor_TrickyJag = {
+				name = "Tricky Jag",
+				text = {
+					"Discarding a {C:attention}#2#",
+					"of {V:2}#3#{} destroys it,",
+                    "{X:mult,C:white} X#1# {} Mult if this Joker",
+                    "has destroyed a card this round",
+                    "{s:0.8}Card changes every round",
+					"{s:0.5} {}",
+					"{B:1,C:white,s:0.75,E:1}Code: Sophiedeergirl",
+					"{B:1,C:white,s:0.75,E:1}Art: InfamousInvictis",
+					"{B:1,C:white,s:0.75,E:1}Idea: InfamousInvictis"
+				},
+			},
+            j_flor_TrickyJag_inactive = {
+				name = "Tricky Jag",
+				text = {
+					"Discarding a {C:attention}#2#",
+					"of {V:2}#3#{} destroys it,",
+                    "{X:mult,C:inactive} X#1# {} {C:inactive}Mult if this Joker",
+                    "{C:inactive}has destroyed a card this round",
+                    "{s:0.8}Card changes every round",
+					"{s:0.5} {}",
+					"{B:1,C:white,s:0.75,E:1}Code: Sophiedeergirl",
+					"{B:1,C:white,s:0.75,E:1}Art: InfamousInvictis",
+					"{B:1,C:white,s:0.75,E:1}Idea: InfamousInvictis"
+				},
+			},
 		}
 	},
     misc = {
         dictionary = {
-            k_secede_ex = "Seceded!"
+            k_secede_ex = "Seceded!",
+            k_flor_destroy_jag = "Hunted!",
         }
     }
 }
